@@ -11,3 +11,9 @@ This repository contains a Python-based implementation for automatic face captur
 - Face Recognition: Compares captured embeddings with stored embeddings in MongoDB to find a match.
 
 - MongoDB Integration: Stores and retrieves face embeddings for persistent face data management.
+
+# Prerequisites
+
+- Python 3.8 or above
+
+- MongoDB installed locally or accessible remotely
