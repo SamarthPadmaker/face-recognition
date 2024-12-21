@@ -21,4 +21,4 @@ This repository contains a Python-based implementation for automatic face captur
 # Python Libraries
 
 Install the required libraries using pip:
-'''pip install opencv-python-headless deepface pymongo numpy'''
+ - ``` pip install opencv-python-headless deepface pymongo numpy ```
