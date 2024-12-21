@@ -69,7 +69,7 @@ To perform automatic face capture and recognition:
 # Configuration
 
 1. Update the MongoDB URI in the scripts if using a remote MongoDB server:
-- ```mongo_uri = "mongodb://<your-mongodb-uri>:27017/"
+- ```mongo_uri = "mongodb://<your-mongodb-uri>:27017/"```
 2. Adjust the similarity threshold for face recognition in the scripts:
 - ```threshold = 0.70```
   
