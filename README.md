@@ -17,3 +17,8 @@ This repository contains a Python-based implementation for automatic face captur
 - Python 3.8 or above
 
 - MongoDB installed locally or accessible remotely
+
+# Python Libraries
+
+Install the required libraries using pip:
+pip install opencv-python-headless deepface pymongo numpy
