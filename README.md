@@ -65,3 +65,11 @@ To perform automatic face capture and recognition:
 - face_recognition_script.py: Handles face capture, embedding generation, and recognition.
 
 - mongo_population_script.py: Populates MongoDB with face embeddings from a folder.
+
+# Configuration
+
+1. Update the MongoDB URI in the scripts if using a remote MongoDB server:
+- ```mongo_uri = "mongodb://<your-mongodb-uri>:27017/"
+2. Adjust the similarity threshold for face recognition in the scripts:
+- ```threshold = 0.70```
+  
