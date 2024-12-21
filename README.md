@@ -50,12 +50,18 @@ Install the required libraries using pip:
 To populate MongoDB with embeddings from images:
 1. Update the folder path in the script
 2. Run the script to extract embeddings and store them in MongoDB
-   ```python mongo_population_script.py```
+- ```python mongo_population_script.py```
 
 # Face Capture and Recognition
 
 To perform automatic face capture and recognition:
 
 1. Run the script:
-   ```python face_recognition_script.py```
+ -  ```python face_recognition_script.py```
 2. The script will automatically capture an image and compare it with stored embeddings.
+
+# File Structure
+
+- face_recognition_script.py: Handles face capture, embedding generation, and recognition.
+
+- mongo_population_script.py: Populates MongoDB with face embeddings from a folder.
