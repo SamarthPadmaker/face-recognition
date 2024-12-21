@@ -22,3 +22,23 @@ This repository contains a Python-based implementation for automatic face captur
 
 Install the required libraries using pip:
  - ``` pip install opencv-python-headless deepface pymongo numpy ```
+
+#  How It Works
+
+# Face Capture and Recognition Script
+
+1. Automatically captures an image from the webcam.
+
+2. Generates an embedding for the captured image using DeepFace.
+
+3. Compares the embedding with stored embeddings in MongoDB.
+
+4. Outputs the best match if found within the threshold.
+
+# MongoDB Population Script
+
+- Processes images from a specified folder.
+
+- Generates embeddings for each image.
+
+- Saves the embeddings to MongoDB with the corresponding filename.
