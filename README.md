@@ -72,4 +72,10 @@ To perform automatic face capture and recognition:
 - ```mongo_uri = "mongodb://<your-mongodb-uri>:27017/"```
 2. Adjust the similarity threshold for face recognition in the scripts:
 - ```threshold = 0.70```
+
+# Debugging and Logs
+
+- For detailed logs during execution, ensure print statements are enabled in the scripts.
+
+- Captured images are temporarily stored in the system's temp directory and are deleted after use.
   
